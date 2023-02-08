@@ -1,0 +1,15 @@
+/Users/andyvasquez/Documents/GITHUB/cse210-projects/prove/Develop02/bin/Debug/net7.0/Develop02
+/Users/andyvasquez/Documents/GITHUB/cse210-projects/prove/Develop02/bin/Debug/net7.0/Develop02.deps.json
+/Users/andyvasquez/Documents/GITHUB/cse210-projects/prove/Develop02/bin/Debug/net7.0/Develop02.runtimeconfig.json
+/Users/andyvasquez/Documents/GITHUB/cse210-projects/prove/Develop02/bin/Debug/net7.0/Develop02.dll
+/Users/andyvasquez/Documents/GITHUB/cse210-projects/prove/Develop02/bin/Debug/net7.0/Develop02.pdb
+/Users/andyvasquez/Documents/GITHUB/cse210-projects/prove/Develop02/obj/Debug/net7.0/Develop02.csproj.AssemblyReference.cache
+/Users/andyvasquez/Documents/GITHUB/cse210-projects/prove/Develop02/obj/Debug/net7.0/Develop02.GeneratedMSBuildEditorConfig.editorconfig
+/Users/andyvasquez/Documents/GITHUB/cse210-projects/prove/Develop02/obj/Debug/net7.0/Develop02.AssemblyInfoInputs.cache
+/Users/andyvasquez/Documents/GITHUB/cse210-projects/prove/Develop02/obj/Debug/net7.0/Develop02.AssemblyInfo.cs
+/Users/andyvasquez/Documents/GITHUB/cse210-projects/prove/Develop02/obj/Debug/net7.0/Develop02.csproj.CoreCompileInputs.cache
+/Users/andyvasquez/Documents/GITHUB/cse210-projects/prove/Develop02/obj/Debug/net7.0/Develop02.dll
+/Users/andyvasquez/Documents/GITHUB/cse210-projects/prove/Develop02/obj/Debug/net7.0/refint/Develop02.dll
+/Users/andyvasquez/Documents/GITHUB/cse210-projects/prove/Develop02/obj/Debug/net7.0/Develop02.pdb
+/Users/andyvasquez/Documents/GITHUB/cse210-projects/prove/Develop02/obj/Debug/net7.0/Develop02.genruntimeconfig.cache
+/Users/andyvasquez/Documents/GITHUB/cse210-projects/prove/Develop02/obj/Debug/net7.0/ref/Develop02.dll
