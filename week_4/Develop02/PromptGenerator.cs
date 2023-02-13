@@ -1,3 +1,8 @@
+// File: Prompt Generator //
+// Date: 2/13/2023 // 
+// Author: Scott Kamerath // 
+// Purpose: To learn how to write a Journal code in CS#. //
+
 using System;
 
 public class PromptGenerator 
@@ -19,4 +24,3 @@ public class PromptGenerator
         }    
     }
 }
-

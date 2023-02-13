@@ -1,4 +1,7 @@
-// 
+// File: Program //
+// Date: 2/13/2023 // 
+// Author: Scott Kamerath // 
+// Purpose: To learn how to write a Journal code in CS#. //
 
 using System;
 
@@ -9,7 +12,7 @@ class Program
         //APPLIED MENU//
         Console.WriteLine("Welcome to the Journal Program!");
         // (Class Type) (Object Name) = new (Constructor)
-        Entry jou1 = new Entry();
+        Entry jou = new Entry();
         Console.WriteLine  ("1. Write");
         Console.WriteLine  ("2. Display");
         Console.WriteLine  ("3. Load");
@@ -17,7 +20,7 @@ class Program
         Console.WriteLine ("5. Quit");
 
         Journal allMenu = new Journal();
-        allMenu._menu.Add(jou1);
+        allMenu._menu.Add(jou);
 
         allMenu.Menu();
 

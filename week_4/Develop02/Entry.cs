@@ -1,3 +1,8 @@
+// File: Entry //
+// Date: 2/13/2023 // 
+// Author: Scott Kamerath // 
+// Purpose: To learn how to write a Journal code in CS#. //
+
 using System;
 
 public class Entry
@@ -9,11 +14,11 @@ public class Entry
 
     public void Display()
     {
-        Console.WriteLine(_write);
-        Console.WriteLine(_display);
-        Console.WriteLine(_load);
-        Console.WriteLine(_save);
-        Console.WriteLine(_quit);
+        Console.WriteLine("write");
+        Console.WriteLine("display");
+        Console.WriteLine("load");
+        Console.WriteLine("save");
+        Console.WriteLine("quit");
     }
     public void Write()
     {
