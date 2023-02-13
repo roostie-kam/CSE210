@@ -2,11 +2,10 @@ using System;
 
 public class Entry
 {
-    public string _write;
-    public string _display;
-    public string _load;
-    public string _save;
-    public string _quit;
+    string prompt;
+    string response;
+    DateTime dateojb = DateTime.Now; 
+    string date;
 
     public void Display()
     {
@@ -15,5 +14,10 @@ public class Entry
         Console.WriteLine(_load);
         Console.WriteLine(_save);
         Console.WriteLine(_quit);
+    }
+    public void Write()
+    {
+        date = dateojb.ToShortDateString();
+
     }
 }

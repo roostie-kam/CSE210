@@ -1,3 +1,5 @@
+// 
+
 using System;
 
 class Program
@@ -6,13 +8,13 @@ class Program
     {
         //APPLIED MENU//
         Console.WriteLine("Welcome to the Journal Program!");
-
+        // (Class Type) (Object Name) = new (Constructor)
         Entry jou1 = new Entry();
-        jou1._write = "1. Write";
-        jou1._display = "2. Display";
-        jou1._load = "3. Load";
-        jou1._save = "4. Save";
-        jou1._quit = "5. Quit";
+        Console.WriteLine  ("1. Write");
+        Console.WriteLine  ("2. Display");
+        Console.WriteLine  ("3. Load");
+        Console.WriteLine  ("4. Save");
+        Console.WriteLine ("5. Quit");
 
         Journal allMenu = new Journal();
         allMenu._menu.Add(jou1);
