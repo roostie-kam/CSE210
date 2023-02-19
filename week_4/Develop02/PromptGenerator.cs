@@ -7,20 +7,22 @@ using System;
 
 public class PromptGenerator 
 {
-    public List<string> _promptList = new List<string>();
+    private List<string> _promptList = new List<string>();
 
-    public void DisplayPrompt()
+    public PromptGenerator(List<string> prompts)
     {
-        Console.Write($"What would you like to do? ");
-        string toDo = Console.ReadLine();
-            
-        if (toDo == "1")
-        {
-            Random r = new Random();
-            int getRandom = r.Next(0, _promptList.Count());
-
-            Console.WriteLine(_promptList[getRandom]);
-            string answer = Console.ReadLine();
-        }    
+        this._promptList = prompts;
     }
 }
+
+// Elsewhere
+
+List<string> prompts = new List<string> {
+            "Who was the most unique person that I encountered today?", 
+            "What was the best part of my day?", 
+            "How did I see the hand of the Lord in my life today?", 
+            "What was the strongest emotion I felt today?", 
+            "If I had one thing I could do over today, what would it be?"
+};
+
+PromptGenerator pg = new PromptGenerator(prompts);
