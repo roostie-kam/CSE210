@@ -25,8 +25,7 @@ public class Program
         allMenu.Menu();
 
         //CREATING A LIST WITH THE QUESTIONS 
-        PromptGenerator listP = new PromptGenerator();
-        listP._promptList = new List<string>
+        List<string> ListP = new List<string> 
         {
             "Who was the most unique person that I encountered today?", 
             "What was the best part of my day?", 
@@ -34,7 +33,7 @@ public class Program
             "What was the strongest emotion I felt today?", 
             "If I had one thing I could do over today, what would it be?"
         };
-
+        PromptGenerator listP = new PromptGenerator(ListP);
         listP.DisplayPrompt();
     }     
 }  

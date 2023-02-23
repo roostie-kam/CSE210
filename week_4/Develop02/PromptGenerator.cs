@@ -8,15 +8,6 @@ using System;
 public class PromptGenerator 
 {
     private List<string> _promptList = new List<string>();
-
-    public PromptGenerator(List<string> prompts)
-    {
-        this._promptList = prompts;
-    }
-}
-
-// Elsewhere
-
 List<string> prompts = new List<string> {
             "Who was the most unique person that I encountered today?", 
             "What was the best part of my day?", 
@@ -24,5 +15,13 @@ List<string> prompts = new List<string> {
             "What was the strongest emotion I felt today?", 
             "If I had one thing I could do over today, what would it be?"
 };
-
-PromptGenerator pg = new PromptGenerator(prompts);
+// Elsewhere
+    public PromptGenerator(List<string> prompts)
+    {
+        this._promptList = prompts;
+    }
+    public void DisplayPrompt()
+    {
+        string prompt = prompts [2];
+    }
+}

@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/week_4/Burton_learning.csproj",
+                "${workspaceFolder}/Develop02.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/week_4/Burton_learning.csproj",
+                "${workspaceFolder}/Develop02.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -33,7 +33,7 @@
                 "watch",
                 "run",
                 "--project",
-                "${workspaceFolder}/week_4/Burton_learning.csproj"
+                "${workspaceFolder}/Develop02.csproj"
             ],
             "problemMatcher": "$msCompile"
         }
