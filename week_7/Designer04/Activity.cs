@@ -1,0 +1,48 @@
+// File: Activity //
+// Date: 2/23/2023 // 
+// Author: Scott Kamerath // 
+// Purpose: To learn how to write an Activity code in CS#. //
+
+using System
+
+// Activity....
+{
+    // Variables:
+    string className();
+    string classInstruction();
+    int seconds();
+}
+
+// Methods....
+{
+    ActivityTimer();
+    GetRandomPrompt();
+    DisplayNameAndInstructions();
+    GetReadyTimer();
+    CountDownTimer();
+}
+
+// Breathing Activity
+{    
+    // Variables:
+        int breathingTime();
+    //Methods:
+        BreathingPrompt();
+}
+
+// Listing Activity
+{
+    // Variables:
+        int EntryCount()
+    // Methods:
+        listCounter();
+        CountDown();
+}
+
+// Reflecting Activity
+{
+    // Variables:
+        List<string>questions();
+    // Methods:
+        displayRandomQuestion();
+}
