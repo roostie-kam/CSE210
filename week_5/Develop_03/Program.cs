@@ -1,3 +1,8 @@
+// File: Program.cs //
+// Date: 2/27/2023 // 
+// Author: Scott Kamerath // 
+// Purpose: To learn how to write an Encapsulation code in CS#. //
+
 using System;
 
 class Program
