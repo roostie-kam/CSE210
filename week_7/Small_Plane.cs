@@ -5,17 +5,17 @@
 
 class Plane  // base class (parent).
 {
-  public string brand = "Bonanza - V-tail";  // Plane field.
+  public string brand = "Bonanza - V-tail";  // The Plane field.
   
-  public void radio() // Plane method.
+  public void radio() // The Plane method.
   {                    
     Console.WriteLine("Squak1234, Squak1234!");
   }
 }
 
-class Plane : Plane  // derived class (child).
+class Plane : Plane  // The derived class (child).
 {
-  public string PlanemodelName = "Mustang";  // Plane field.
+  public string PlanemodelName = "Mustang";  // The Plane field.
 }
 
 class Program
