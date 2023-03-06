@@ -6,4 +6,4 @@ a word should be implemented like this.
 
 3. Choose a random index maskIndex between 0 and the size of the word list wordListMask 
 the word at that index like so: wordList[maskIndex].mask()When rendering the scripture, 
-use string.Join
+use string. Join.
