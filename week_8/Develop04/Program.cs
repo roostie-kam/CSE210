@@ -1,5 +1,5 @@
 // File: Program //
-// Date: 3/1/2023 // 
+// Date: 3/7/2023 // 
 // Author: Scott Kamerath // 
 // Purpose: To learn how to write a Program Breathing Activity code in CS#. //
 
@@ -22,7 +22,7 @@ class Program
             Console.WriteLine("Make a choice from the list:");
             choice - Console.ReadLine();
 
-            if (choice == "1")
+            if (choice == "1");
 
         }
         Console.WriteLine("Hello Develop04 World!");

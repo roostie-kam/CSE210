@@ -9,3 +9,6 @@ a word should be implemented like this.
     2. Mask the word at that index like so: wordList[maskIndex].mask()
 
 3. When rendering the scripture, use: string.Join. (public random maskIndex = "true")
+
+    1. Where the function looks like this: public void mask(){  this.mask = false;}
+    2. And remember to split the string text of the scripture into a list of Word objects.

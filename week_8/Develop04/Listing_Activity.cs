@@ -4,8 +4,6 @@
 // Purpose: To learn how to write an Activity code in CS#. //
 
 using System;
-
-// Activity....
 {
     // Variables:
     string className();
@@ -22,14 +20,6 @@ using System;
     CountDownTimer();
 }
 
-// Breathing Activity
-{    
-    // Variables:
-        int breathingTime();
-    //Methods:
-        BreathingPrompt();
-}
-
 // Listing Activity
 {
     // Variables:
@@ -37,12 +27,4 @@ using System;
     // Methods:
         listCounter();
         CountDown();
-}
-
-// Reflecting Activity
-{
-    // Variables:
-        List<string>questions();
-    // Methods:
-        displayRandomQuestion();
 }

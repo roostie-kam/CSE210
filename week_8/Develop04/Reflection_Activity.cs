@@ -3,7 +3,7 @@
 // Author: Scott Kamerath // 
 // Purpose: To learn how to write an Activity code in CS#. //
 
-using System;
+using System
 
 // Activity....
 {
@@ -21,24 +21,6 @@ using System;
     GetReadyTimer();
     CountDownTimer();
 }
-
-// Breathing Activity
-{    
-    // Variables:
-        int breathingTime();
-    //Methods:
-        BreathingPrompt();
-}
-
-// Listing Activity
-{
-    // Variables:
-        int EntryCount()
-    // Methods:
-        listCounter();
-        CountDown();
-}
-
 // Reflecting Activity
 {
     // Variables:
