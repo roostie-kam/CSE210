@@ -1,9 +1,0 @@
-1. Create a Word class that contains a single word and a boolean flag indicating whether 
-or not it's masked. 
-
-2.The Scripture class should have a list of Word instances, and randomly masking 
-a word should be implemented like this.
-
-3. Choose a random index maskIndex between 0 and the size of the word list wordListMask 
-the word at that index like so: wordList[maskIndex].mask()When rendering the scripture, 
-use string. Join.

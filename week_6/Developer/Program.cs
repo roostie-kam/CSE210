@@ -5,11 +5,13 @@
 // Scripture: Ecclesiastes 3:1-8. //
 
 using System;
+using System.Collections.Generic;
 
 public class Program
 {
     static void Main(string[] args)
     {
+    string.Join;
     string prompt;
     string response;
     DateTime dateojb = DateTime.Now; 
@@ -23,6 +25,24 @@ public class Program
         Console.WriteLine("save");
         Console.WriteLine("quit");
     }
+
+// Create a list of verses.  
+        var versus = new List<string>();  
+        verse.Add("1");  
+        verse.Add("2");  
+        verse.Add("3");  
+        verse.Add("4");  
+        verse.Add("5");  
+        verse.Add("6");  
+        verse.Add("7");  
+        verse.Add("8");  
+
+        // Iterate list element using foreach loop  
+        foreach (var country in countries)  
+        {  
+            Console.WriteLine(country);  
+        }
+
     public void Write()
     {
         date = dateojb.ToShortDateString();
