@@ -3,28 +3,42 @@
 // Author: Scott Kamerath // 
 // Purpose: To learn how to write an Activity code in CS#. //
 
-using System;
-{
-    // Variables:
-    string className();
-    string classInstruction();
-    int seconds();
-}
-
-// Methods....
-{
-    ActivityTimer();
-    GetRandomPrompt();
-    DisplayNameAndInstructions();
-    GetReadyTimer();
-    CountDownTimer();
-}
+using System.Diagnostics;
 
 // Listing Activity
-{
+// {
     // Variables:
-        int EntryCount()
+       // int EntryCount()
     // Methods:
-        listCounter();
-        CountDown();
+      // listCounter();
+        // CountDown();
+// }
+
+class Listing_Activity : Activity
+// Variables:
+// {
+       // int EntryCount()
+// }
+{
+    private List<string> _activityPromptList;
+    private bool _timeslip = false; // Maybe parent variable?
+    private int _numberEntries;
+    private int _remainingSeconds; // Maybe parent variable?
 }
+// The Constructors 
+
+// {
+    // Variables:
+    // string className();
+    // string classInstruction();
+    // int seconds();
+// }
+    public Listing_Activity(string activityName, string activityinstruction) : base (activityName, activityInstruction);
+    {
+        _activityPromptList - new List<string>() // Class list declaration.
+
+            "What have you learned from the Savior this week?",
+            "Have you helped a friend in need?",
+            "How have you been a force of good this month?",
+            
+    }
