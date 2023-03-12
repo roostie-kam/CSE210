@@ -1,5 +1,5 @@
 // File: Scripture.cs //
-// Date: 2/27/2023 // 
+// Date: 3/11/2023 // 
 // Author: Scott Kamerath // 
 // Purpose: To learn how to write an Encapsulation code (Scripture Memorizer) in CS#. //
 // Scripture: Ecclesiastes 3:1-8. //
