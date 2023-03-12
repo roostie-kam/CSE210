@@ -33,7 +33,7 @@ using System;
 // Listing Activity
 {
     // Variables:
-        int EntryCount()
+        int EntryCount();
     // Methods:
         listCounter();
         CountDown();
