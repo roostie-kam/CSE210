@@ -22,6 +22,31 @@ using System;
     CountDownTimer();
 }
 
+void CountDownTimer()
+{
+    throw new NotImplementedException();
+}
+
+void GetReadyTimer()
+{
+    throw new NotImplementedException();
+}
+
+void DisplayNameAndInstructions()
+{
+    throw new NotImplementedException();
+}
+
+void GetRandomPrompt()
+{
+    throw new NotImplementedException();
+}
+
+void ActivityTimer()
+{
+    throw new NotImplementedException();
+}
+
 // Breathing Activity
 {    
     // Variables:

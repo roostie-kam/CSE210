@@ -1,7 +1,7 @@
 // File: Activity //
 // Date: 3/7/2023 // 
 // Author: Scott Kamerath // 
-// Purpose: To learn how to write an Activity code in CS#. //
+// Purpose: To learn how to write a Listing Activity code in CS#. //
 
 using System.Diagnostics;
 
@@ -15,6 +15,7 @@ using System.Diagnostics;
 // }
 
 class Listing_Activity : Activity
+
 // Variables:
 // {
        // int EntryCount()
@@ -24,6 +25,10 @@ class Listing_Activity : Activity
     private bool _timeslip = false; // Maybe parent variable?
     private int _numberEntries;
     private int _remainingSeconds; // Maybe parent variable?
+
+    public Listing_Activity(string operationName) : base(operationName)
+    {
+    }
 }
 // The Constructors 
 

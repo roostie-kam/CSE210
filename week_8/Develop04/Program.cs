@@ -3,7 +3,7 @@
 // Author: Scott Kamerath // 
 // Purpose: To learn how to write a Program Breathing Activity code in CS#. //
 
-using System;
+using System.Diagnostics;
 
 class Program
 {
