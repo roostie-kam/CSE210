@@ -13,8 +13,8 @@ class Program
         // Notice that the list is a list of 'Shape' objects. This means that
         // you can put any Shape objects in there, and also, any object where
         // the class inherits from Shape.
-        // I chose the colors of Blue, Green, and Purple because of my interest in Star Wars. 
-        // They're Lightsaber colors.
+        // I chose the colors of Blue, Green, and Purple because of my interest in Star Wars, 
+        // they're Lightsaber colors.
 
         List<Shape> shapes = new List<Shape>();
 

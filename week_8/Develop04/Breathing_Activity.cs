@@ -1,29 +1,64 @@
 // File: Breathing Activity //
-// Date: 3/7/2023 // 
+// Date: 3/14/2023 // 
 // Author: Scott Kamerath // 
 // Purpose: To learn how to write a Breathing Activity code in CS#. //
 
 using System.Diagnostics;
 
-// Breathing Activity
-// {    
-    // Variables:
-        // int breathingTime();
-    //Methods:
-        // BreathingPrompt();
-// }
+public class Breathing Activity 
 
-    // Variables:
-    string className();
-    string classInstruction();
-    int seconds();
-}
-
-// Methods....
+// Breathing Activity....
 {
-    ActivityTimer();
-    GetRandomPrompt();
-    DisplayNameAndInstructions();
-    GetReadyTimer();
-    CountDownTimer();
+    // Variables:
+    string className;
+    string classInstruction;
+    int seconds;
+
+    private List<string> _activityPromptList = new List<string> // Class list declaration. 
+    {
+
+    };
+    // Methods....
+
+    public void ActivityTimer()
+    {
+
+    }
+    public void GetRandomPrompt()
+    {
+
+    }
+    public void DisplayNameAndInstructions()
+    {
+
+    }
+    public void GetReadyTimer()
+    {
+        
+    }
+    public void CountDownTimer()
+    {
+         
+    }
+
+    public void ActivityTimer()
+    {
+
+    }
+    void GetRandomPrompt()
+    {
+
+    }
+    void DisplayNameAndInstructions()
+    {
+
+    }
+    void GetReadyTimer()
+    {
+
+    }
+    void CountDownTimer()
+    {
+
+    }
 }
