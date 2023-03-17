@@ -1,3 +1,7 @@
+using System;
+
+using System.Diagnostics;
+
 nes (13 sloc) 305 Bytes
 public class Circle : Shape
 {

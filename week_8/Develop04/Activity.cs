@@ -5,8 +5,6 @@
 
 using System;
 
-using System.Diagnostics;
-
 public class Activity 
 // Activity....
 {
@@ -14,12 +12,6 @@ public class Activity
     string className;
     string classInstruction;
     int seconds;
-    private string operationName;
-
-    public Activity(string operationName)
-    {
-        this.operationName = operationName;
-    }
 
     // Methods....
 
@@ -43,8 +35,8 @@ public class Activity
     {
          
     }
-}
-{}
+
+
 void CountDownTimer()
 {
     throw new NotImplementedException();
@@ -69,7 +61,7 @@ void ActivityTimer()
 {
     throw new NotImplementedException();
 }
-
+}
 // Breathing Activity
 // {    
     // Variables:

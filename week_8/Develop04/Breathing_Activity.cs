@@ -3,8 +3,6 @@
 // Author: Scott Kamerath // 
 // Purpose: To learn how to write a Program Breathing Activity code in CS#. //
 
-using System;
-
 using System.Diagnostics;
 
 internal class Breathing_Activity
@@ -24,8 +22,6 @@ internal class Breathing_Activity
     }
 }
 public class BreathingActivity 
-
-// Breathing Activity....
 {
     // Variables:
     string className;

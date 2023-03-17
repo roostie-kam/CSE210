@@ -10,6 +10,15 @@ using System.Diagnostics;
 
 internal class Reflection_Activity
 {
+    private string v1;
+    private string v2;
+
+    public Reflection_Activity(string v1, string v2)
+    {
+        this.v1 = v1;
+        this.v2 = v2;
+    }
+
     internal void RunReflection_Activity()
     {
         throw new NotImplementedException();
