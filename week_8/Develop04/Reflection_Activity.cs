@@ -1,14 +1,23 @@
-// File: Reflection Activity //
+// File: Program //
 // Date: 3/14/2023 // 
 // Author: Scott Kamerath // 
-// Purpose: To learn how to write a Reflection Activity code in CS#. //
+// Purpose: To learn how to write a Program Breathing Activity code in CS#. //
 
 using System;
 
+using System.Diagnostics;
 
+
+internal class Reflection_Activity
+{
+    internal void RunReflection_Activity()
+    {
+        throw new NotImplementedException();
+    }
+}
 // Activity....
 {
-    // Variables:
+// Variables:
     string className();
     string classInstruction();
     int seconds();

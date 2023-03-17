@@ -3,6 +3,8 @@
 // Author: Scott Kamerath // 
 // Purpose: To learn how to write a Listing Activity code in CS#. //
 
+using System;
+
 using System.Diagnostics;
 
 class Listing_Activity : Activity
@@ -35,9 +37,14 @@ class Listing_Activity : Activity
     private int _numberEntries;
     private int _remainingSeconds; // Maybe Child (parent) variable?
 
-    public Listing_Activity(string operationName) : base(operationName)
+    public Listing_Activity(string operationName, string v) : base(operationName)
     {
 
+    }
+
+    internal void RunListing_Activity()
+    {
+        throw new NotImplementedException();
     }
 }
 // The Constructors 

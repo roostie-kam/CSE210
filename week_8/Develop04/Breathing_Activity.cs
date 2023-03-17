@@ -1,11 +1,29 @@
-// File: Breathing Activity //
+// File: Program //
 // Date: 3/14/2023 // 
 // Author: Scott Kamerath // 
-// Purpose: To learn how to write a Breathing Activity code in CS#. //
+// Purpose: To learn how to write a Program Breathing Activity code in CS#. //
+
+using System;
 
 using System.Diagnostics;
 
-public class Breathing Activity 
+internal class Breathing_Activity
+{
+    private string v1;
+    private string v2;
+
+    public Breathing_Activity(string v1, string v2)
+    {
+        this.v1 = v1;
+        this.v2 = v2;
+    }
+
+    internal void RunBreathing_Activity()
+    {
+        throw new NotImplementedException();
+    }
+}
+public class BreathingActivity 
 
 // Breathing Activity....
 {
