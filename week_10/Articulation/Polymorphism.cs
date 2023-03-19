@@ -2,8 +2,8 @@
 // Date: 3/15/2023 // 
 // Author: Scott Kamerath // 
 // Purpose: To learn how to write a Polymorphism Activity code in CS#. //
-// Practice: Example from the assignment.
-// I changed this around and did some tweaks with it to make it my own. I just used this as a template,
+// Practice: Example from the assignment. I changed this around and did some 
+// tweaks with it to make it my own. I just used this as a template, 
 // to help me learn.
 
 // The Parent class needs to show a "virtual" keyword or similar.
