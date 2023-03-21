@@ -4,7 +4,6 @@
 // Purpose: To learn how to write a Shape code in CS#. //
 // Star Wars: The colors and shapes I've chosen are due my love of Star Wars.
 
-
 // We need to look at the Code below about the abstract method. Because we now have an abstract 
 // method, we must therefore declare an abstract class.
 public abstract class Shape

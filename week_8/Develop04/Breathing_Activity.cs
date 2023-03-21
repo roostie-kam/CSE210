@@ -3,17 +3,27 @@
 // Author: Scott Kamerath // 
 // Purpose: To learn how to write a Program Breathing Activity code in CS#. //
 
+using System;
+
 using System.Diagnostics;
 
 internal class Breathing_Activity
 {
-    private string v1;
-    private string v2;
+    private int v1;
+    private int v2;
+    private string v;
+    private string v3;
 
-    public Breathing_Activity(string v1, string v2)
+    public Breathing_Activity(int v1, int v2)
     {
         this.v1 = v1;
         this.v2 = v2;
+    }
+
+    public Breathing_Activity(string v, string v3)
+    {
+        this.v = v;
+        this.v3 = v3;
     }
 
     internal void RunBreathing_Activity()
@@ -53,26 +63,5 @@ public class BreathingActivity
     public void CountDownTimer()
     {
          
-    }
-
-    public void ActivityTimer()
-    {
-
-    }
-    void GetRandomPrompt()
-    {
-
-    }
-    void DisplayNameAndInstructions()
-    {
-
-    }
-    void GetReadyTimer()
-    {
-
-    }
-    void CountDownTimer()
-    {
-
     }
 }

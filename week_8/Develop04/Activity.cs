@@ -5,13 +5,22 @@
 
 using System;
 
+using System.Diagnostics;
+
 public class Activity 
 // Activity....
 {
     // Variables:
-    string className;
-    string classInstruction;
-    int seconds;
+    string _className;
+    string _classInstruction;
+    int _seconds;
+
+    public Activity(string operation_Name)
+    {
+        Operation_Name = operation_Name;
+    }
+
+    public string Operation_Name { get; }
 
     // Methods....
 
@@ -25,7 +34,11 @@ public class Activity
     }
     public void DisplayNameAndInstructions()
     {
-
+        Console.WriteLine($"Welcome to my {_className} Activity");
+        Console.WriteLine($"Welcome to my {_classInstruction} Activity");
+        Console.WriteLine($"How long in seconds does it take to complete Activity");
+        string choice = Console.ReadLine();
+        _seconds = Int32.Parse(choice);
     }
     public void GetReadyTimer()
     {
@@ -35,32 +48,6 @@ public class Activity
     {
          
     }
-
-
-void CountDownTimer()
-{
-    throw new NotImplementedException();
-}
-
-void GetReadyTimer()
-{
-    throw new NotImplementedException();
-}
-
-void DisplayNameAndInstructions()
-{
-    throw new NotImplementedException();
-}
-
-void GetRandomPrompt()
-{
-    throw new NotImplementedException();
-}
-
-void ActivityTimer()
-{
-    throw new NotImplementedException();
-}
 }
 // Breathing Activity
 // {    

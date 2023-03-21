@@ -5,16 +5,16 @@
 
 using System;
 
-using System.Diagnostics;
 
-public class Program
+class Program
 {
     public static void Main(string[] args)
     {
         string choice = "";
-        while (choice.ToSmaller() != "4")
+        // while (choice.ToSmaller() != "4")
+        while (choice != "4")
         {
-            Console.BackgroundColor - ConsoleColor.Black;
+            Console.BackgroundColor = ConsoleColor.DarkGreen;
             Console.Clear();
             Console.WriteLine("List Options:");
             Console.WriteLine("1. Start Breathing Activity");
@@ -22,11 +22,11 @@ public class Program
             Console.WriteLine("3. Start Listing Activity");
             Console.WriteLine(". Quit");
             Console.WriteLine("Make a choice from the list:");
-            choice - Console.ReadLine();
+            choice = Console.ReadLine();
 
             if (choice == "1")
             {
-                Breathing_Activity breathing_Activity = new Breathing_Activity("Breathing", "This activity is designed to help the user learn how to box breath, or in other words paced breathing.");
+                Breathing_Activity breathing_Activity = new Breathing_Activity("Breathing", "This activity is designed to help the user learn how different aspects of self-paced breathing can work.");
                 breathing_Activity.RunBreathing_Activity();
             }
             if (choice == "2")

@@ -7,30 +7,22 @@ using System;
 
 using System.Diagnostics;
 
-
-internal class Reflection_Activity
+class Reflection_Activity : Activity
 {
     private string v1;
     private string v2;
 
     public Reflection_Activity(string v1, string v2)
     {
-        this.v1 = v1;
-        this.v2 = v2;
+        // this.v1 = v1;
+        // this.v2 = v2;
     }
-
     internal void RunReflection_Activity()
     {
         throw new NotImplementedException();
     }
 }
 // Activity....
-{
-// Variables:
-    string className();
-    string classInstruction();
-    int seconds();
-}
 
 // Methods....
 {

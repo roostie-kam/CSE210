@@ -4,6 +4,8 @@
 // Purpose: To learn how to write a Shape (Circle) code in CS#. //
 // Star Wars: The colors and shapes I've chosen are due my love of Star Wars.
 
+using System;
+
 nes (13 sloc) 305 Bytes
 public class Circle : Shape
 {
