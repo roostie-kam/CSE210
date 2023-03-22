@@ -1,6 +1,8 @@
 using System;
 
-lines (13 sloc) 283 Bytes
+using System.Diagnostics;
+
+// lines (13 sloc) 283 Bytes
 public class Square : Shape
 {
     private double _side;

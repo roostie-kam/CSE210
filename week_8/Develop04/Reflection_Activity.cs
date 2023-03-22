@@ -8,64 +8,36 @@ using System;
 using System.Diagnostics;
 
 class Reflection_Activity : Activity
+// Activity:
+// Variables:
 {
     private string v1;
     private string v2;
 
-    public Reflection_Activity(string v1, string v2)
+    // public Reflection_Activity.Reflection_Activity(string v1, string v2)
+    // public Reflection_Activity(string v1, string v2)
+
+    public Reflection_Activity(string v1, string v2) : base("Breathing Activity")
     {
-        // this.v1 = v1;
-        // this.v2 = v2;
+        this.v1 = v1;
+        this.v2 = v2;
     }
     internal void RunReflection_Activity()
     {
         throw new NotImplementedException();
     }
-}
-// Activity....
+    // Variables....
 
-// Methods....
-{
-    ActivityTimer();
-    GetRandomPrompt();
-    DisplayNameAndInstructions();
-    GetReadyTimer();
-    CountDownTimer();
-}
-
-void CountDownTimer()
-{
-    throw new NotImplementedException();
-}
-
-void DisplayNameAndInstructions()
-{
-    throw new NotImplementedException();
-}
-
-void GetReadyTimer()
-{
-    throw new NotImplementedException();
-}
-
-void GetRandomPrompt()
-{
-    throw new NotImplementedException();
-}
-
-void ActivityTimer()
-{
-    throw new NotImplementedException();
-}
-// Reflecting Activity
-{
-    // Variables:
-        List<string>questions();
     // Methods:
-        displayRandomQuestion();
-}
-
 void displayRandomQuestion()
 {
     throw new NotImplementedException();
+}
+// {
+    // ActivityTimer();
+    // GetRandomPrompt();
+    // DisplayNameAndInstructions();
+    // GetReadyTimer();
+    // CountDownTimer();
+// }
 }

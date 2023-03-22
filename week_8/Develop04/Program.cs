@@ -1,12 +1,14 @@
 // File: Program //
-// Date: 3/14/2023 // 
+// Date: 3/21/2023 // 
 // Author: Scott Kamerath // 
 // Purpose: To learn how to write a Program Breathing Activity code in CS#. //
 
 using System;
 
+using System.Diagnostics;
 
-class Program
+// partial class Program
+partial class Program
 {
     public static void Main(string[] args)
     {
@@ -14,6 +16,7 @@ class Program
         // while (choice.ToSmaller() != "4")
         while (choice != "4")
         {
+            // Console.BackgroundColor = ConsoleColor.Black;
             Console.BackgroundColor = ConsoleColor.DarkGreen;
             Console.Clear();
             Console.WriteLine("List Options:");
