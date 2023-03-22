@@ -6,6 +6,8 @@
 // I changed this around and did some tweaks with it to make it my own. I just used this as a template,
 // to help me learn.
 
+using System;
+
 // The parent class.
 public class Employee
 {

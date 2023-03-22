@@ -6,7 +6,7 @@
 using System;
 
 using System.Diagnostics;
-
+// Parent Class.
 public class Comment
 {
 // Variables....
