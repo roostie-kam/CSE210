@@ -7,6 +7,20 @@
 // to help me learn.
 
 // The parent class.
+// Create different kinds (classes) of employees....
+// List <Employee> employees = new List<Employee>();  
+
+List<Employee> employees = new List<Employee>();
+employees.add(new Employee());
+employees.add(new HourlyEmployee());
+
+// To get a custom calculation for each one.
+foreach(Employee employee in employees)
+{
+  float pay = employee.CalculatePay();
+  Console.WriteLine(pay);
+}
+
 public class Employee
 {
   private float salary = 100f; // 200f etc.
@@ -41,19 +55,6 @@ public class HourlyEmployee : Employee
   {
     return rate * hours; // The pay can calculated differently.
   }
-}
-
-// Create different kinds (classes) of employees....
-// List <Employee> employees = new List<Employee>();  
-List<Employee> employees = new List<Employee>();
-employees.add(new Employee());
-employees.add(new HourlyEmployee());
-
-// To get a custom calculation for each one.
-foreach(Employee employee in employees)
-{
-  float pay = employee.CalculatePay();
-  Console.WriteLine(pay);
 }
 
 // The Parent class needs to show a "virtual" keyword or similar.
