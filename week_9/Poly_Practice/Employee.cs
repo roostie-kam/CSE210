@@ -35,7 +35,7 @@ public class HourlyEmployee : Employee
 {
   private float rate = 9f; // 8f etc.
   private float hours = 100f; // 200f etc.
- // The salary can have the dollar amount float to almost any dollar value and deciaml point.
+ // The salary can have the dollar amount float to almost any dollar value and decimal point.
 
   public override float CalculatePay()
   {
@@ -44,6 +44,7 @@ public class HourlyEmployee : Employee
 }
 
 // Create different kinds (classes) of employees....
+// List <Employee> employees = new List<Employee>();  
 List<Employee> employees = new List<Employee>();
 employees.add(new Employee());
 employees.add(new HourlyEmployee());
