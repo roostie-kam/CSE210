@@ -9,6 +9,8 @@ using System.Collections.Generic;
 
 public class Program
 {
+    public static string ScriptureTest { get; private set; }
+
     static void Main(string[] args)
     {
     string.Join;
@@ -43,18 +45,30 @@ public class Program
             Console.WriteLine(country);  
         }
 
-    static void Write()
+    static void Write(DateTime dateojb, string date)
     {
         date = dateojb.ToShortDateString();
     }
     
     {
         TextRemover remover = new TextRemover();
-        string originalText = ScriptureTest; 1;2;3;34343;asdasdasd;
+        string originalText = ScriptureTest; 1,2,3,34343, asdasdasd;
         remover.SetOriginalText(originalText);
         string modifiedText = remover.GetModifiedText();
         Console.WriteLine("Original text:" + originalText);
         Console.WriteLine("Modified text:" + modifiedText);
     }
+    }
+
+    private class TextRemover
+    {
+        public TextRemover()
+        {
+        }
+
+        internal void SetOriginalText(string originalText)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
