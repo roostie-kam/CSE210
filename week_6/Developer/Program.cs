@@ -17,7 +17,7 @@ public class Program
     DateTime dateojb = DateTime.Now; 
     string date;
 
-    public void Display()
+    static void Display()
     {
         Console.WriteLine("book");
         Console.WriteLine("Chapter");
@@ -37,23 +37,24 @@ public class Program
         verse.Add("7");  
         verse.Add("8");  
 
-        // Iterate list element using foreach loop  
+        // Iterate list element using foreach loop. 
         foreach (var country in countries)  
         {  
             Console.WriteLine(country);  
         }
 
-    public void Write()
+    static void Write()
     {
         date = dateojb.ToShortDateString();
     }
-    }
+    
     {
         TextRemover remover = new TextRemover();
-        string originalText = Scripture Test 1,2,3,34343,asdasdasd
+        string originalText = ScriptureTest; 1;2;3;34343;asdasdasd;
         remover.SetOriginalText(originalText);
         string modifiedText = remover.GetModifiedText();
         Console.WriteLine("Original text:" + originalText);
         Console.WriteLine("Modified text:" + modifiedText);
+    }
     }
 }
