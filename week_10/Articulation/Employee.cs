@@ -46,16 +46,16 @@ public class HourlyEmployee : Employee
 }
 
 // Create different kinds (classes) of employees....
-List<Employee> employees = new List<Employee>();
-employees.add(new Employee());
-employees.add(new HourlyEmployee());
+// List<Employee> employees = new List<Employee>();
+// employees.add(new Employee());
+// employees.add(new HourlyEmployee());
 
 // To get a custom calculation for each one.
-foreach(Employee employee in employees)
-{
-  float pay = employee.CalculatePay();
-  Console.WriteLine(pay);
-}
+// foreach(Employee employee in employees)
+// {
+  // float pay = employee.CalculatePay();
+  // Console.WriteLine(pay);
+// }
 
 // The Parent class needs to show a "virtual" keyword or similar.
 public abstract class Employee
