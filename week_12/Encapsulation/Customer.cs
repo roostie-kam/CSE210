@@ -9,13 +9,12 @@
 // The parent class. //
 // Edit/Help? //
 
-namespace Customer;
 namespace Encapsulation;
 using System;
 using System.Diagnostics;
 
-// partial class Customer
 class Customer
+// partial class Customer
 {
 
 }

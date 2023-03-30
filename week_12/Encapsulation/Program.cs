@@ -5,14 +5,13 @@
 // namespace Program //
 // namespace Encapsulation //
 // using System //
-// Edit/Help? //
 
-namespace Program;
+
 namespace Encapsulation;
 using System;
 
-// partial class Program
 class Program
+// partial class Program
 {
     static void Main(string[] args)
     {

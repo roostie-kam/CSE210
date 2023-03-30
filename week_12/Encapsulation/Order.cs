@@ -7,18 +7,17 @@
 // using System //
 // using System.Diagnostics //
 // The parent class. //
-// Edit/Help? //
 
-namespace Order;
+
 namespace Encapsulation;
 using System;
 using System.Diagnostics;
 
-// partial class Order
 class Order
+// partial class Order
 {
-    private int _above;
-    private int _below;
+    protected int _above;
+    protected int _below;
 
     public Order()
     {
@@ -48,6 +47,11 @@ class Order
    {
         // Notice that this is not stored as a member variable.
         // Is will be recomputed each time this is called.
-        return (double)_top / (double)_bottom;
+        return (double)_above / (double)_below;
+    }
+
+    internal bool GetDecimalValue()
+    {
+        throw new NotImplementedException();
     }
 }

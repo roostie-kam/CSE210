@@ -9,13 +9,12 @@
 // The parent class.
 // Edit/Help? //
 
-namespace Address;
 namespace Encapsulation;
 using System;
 using System.Diagnostics;
 
-// partial class Address
 class Address
+// partial class Address
 {
 
 }
