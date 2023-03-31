@@ -7,7 +7,7 @@
 using System;
 using System.Diagnostics;
 
-// partial class Basic
+// partial class BasicGoal
 class Basic_Goal : Goal
 {
 // Variables.
