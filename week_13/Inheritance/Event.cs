@@ -29,7 +29,7 @@ public class Event
     // We need to provide all of the necessary Getters and setters in order 
     // for the private member variables so they can be accessed later both 
     // outside the given class as well is inside the given class.
-    public string GetGatheringName()
+    public string GetGatheringName() // Indoor/Outdoor Event location. 
     {
         return _gatheringLocation;
     }
